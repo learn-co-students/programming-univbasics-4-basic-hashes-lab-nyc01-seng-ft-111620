@@ -1,22 +1,15 @@
 def new_hash
-  empty_hash = {}
+  {}
 end
 
-def my_hash
-  valid_hash = {
-    name: "Jaclyn",
-    age: "29"
-  }
+def my_hash 
+  {:name => "Jaclyn"}
 end
 
 def pioneer
-  pioneer = {
-    name: "Grace Hopper"
-  }
+  {:name => "Grace Hopper"}
 end
 
 def id_hash_generator(number)
-  generator = {
-    id: number
-  }
+ {:id => number}
 end
